@@ -51,6 +51,9 @@ namespace Polycode {
 		void handleEvent(Event *event);
 		
 		Number getVScrollWidth();
+
+		UIVScrollBar *getVScrollBar() { return vScrollBar; }
+		UIHScrollBar *getHScrollBar() { return hScrollBar; }
 		
 	private:		
 		
