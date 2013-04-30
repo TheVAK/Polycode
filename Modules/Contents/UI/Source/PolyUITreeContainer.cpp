@@ -223,7 +223,7 @@ void UITreeContainer::onKeyDown(PolyKEY key, wchar_t charCode) {
 			}
 			
 			if (scrollDir != NONE)
-				scrollToNode(getRootNode()->getSelectedNode(), (scrollDir == UP) ? true : false );
+				scrollToNode(getRootNode()->getSelectedNode(), (scrollDir == UP) ? true : false, false);
 		}
 		//
 		// END KEYBOARD NAV STUFF
